@@ -1,0 +1,26 @@
+{
+  "plugins": [
+    "transform-react-inline-elements",
+    "transform-inline-environment-variables",
+    "flow-react-proptypes",
+  ],
+  "presets": [
+    [
+      "es2015",
+      {
+        "modules": false
+      }
+    ],
+    "stage-0",
+    "react",
+    "flow"
+  ],
+  "env": {
+    "development": {
+      "presets": ["react-hmre", "es2015", "stage-0", "react"]
+    },
+    "test": {
+      "presets": ["es2015", "stage-0", "react"]
+    }
+  }
+}

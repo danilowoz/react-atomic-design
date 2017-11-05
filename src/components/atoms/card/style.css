@@ -1,0 +1,12 @@
+@import '../../_settings/_variables.css';
+
+.card {
+  background: #fff;
+  border-radius: 5px;
+  padding: 2em;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+
+  p {
+    margin-bottom: 2em;
+  }
+}

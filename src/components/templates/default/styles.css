@@ -1,0 +1,22 @@
+.default {
+  display: grid;
+  grid-template-columns: 15% repeat(2, 35%) 15%;
+  grid-gap: 2em 0;
+}
+
+.wrap {
+  padding: 2em;
+}
+
+.hero {
+  grid-column: 1/5;
+  grid-row: 1;
+}
+
+.col1 {
+  grid-column: 2/3;
+}
+
+.col2 {
+  grid-column: 3/4;
+}

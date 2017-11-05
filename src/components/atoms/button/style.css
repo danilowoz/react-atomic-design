@@ -1,0 +1,55 @@
+@import '../../_settings/_variables.css';
+
+.button {
+  -webkit-appearance: none;
+  border: 0;
+  outline: 0;
+  display: block;
+  font-family: var(--base-font-family);
+  font-size: 0.9em;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 3px;
+  cursor: pointer;
+  position: relative;
+}
+
+/* Size */
+.small {
+  padding: 0.5em 0.6em;
+}
+
+.medium {
+  padding: 1.1em 1.3em;
+}
+
+.large {
+  padding: 1.7em 2.4em;
+}
+
+/* Theme */
+.default {
+  color: #fff;
+  background: var(--brand);
+  border: 1px solid var(--brand);
+}
+
+.rounded {
+  color: var(--brand);
+  background: #fff;
+  border: 1px solid var(--brand);
+  transition: color 0.3s ease, background 0.3s ease;
+
+  &:hover {
+    color: #fff;
+    background: var(--brand);
+  }
+}
+
+/* Disabled */
+.disabled {
+  color: var(--grey-2);
+  background: color(var(--grey-4) tint(40%));
+  border-color: var(--grey-4);
+  cursor: default;
+}

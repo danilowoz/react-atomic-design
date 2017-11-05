@@ -1,0 +1,23 @@
+[ignore]
+.*node_modules/mitt/.*
+.*node_modules/immutable/.*
+.*node_modules/fbjs/.*
+.*node_modules/stylelint/.*
+.*node_modules/react-apollo/.*
+.*node_modules/apollo-client/.*
+.*node_modules/graphql/.*
+
+[include]
+
+[libs]
+flow-typed
+
+[options]
+module.name_mapper='^_modules\/\(.*\)$' -> '<PROJECT_ROOT>/src/modules/\1'
+module.name_mapper='^_components\/\(.*\)$' -> '<PROJECT_ROOT>/src/components/\1'
+module.name_mapper='^_services\/\(.*\)$' -> '<PROJECT_ROOT>/src/services/\1'
+module.name_mapper='^_assets\/\(.*\)$' -> '<PROJECT_ROOT>/src/assets/\1'
+module.name_mapper='^_views\/\(.*\)$' -> '<PROJECT_ROOT>/src/views/\1'
+module.name_mapper='^_utils\/\(.*\)$' -> '<PROJECT_ROOT>/src/utils/\1'
+module.name_mapper='^_styles\/\(.*\)$' -> '<PROJECT_ROOT>/src/styles/\1'
+module.name_mapper='.*\(.graphql\)' -> 'empty/object'

@@ -1,0 +1,16 @@
+@import '../src/components/_settings/_base.css';
+@import url('https://fonts.googleapis.com/css?family=Lato:400,600');
+
+body {
+  padding: 1em;
+  background-color: rgba(0, 0, 0, 0.03);
+  background-image: -webkit-repeating-radial-gradient(
+    top center,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 1px,
+    transparent 1px,
+    transparent 100%
+  );
+  background-size: 20px 20px;
+  box-sizing: border-box;
+}

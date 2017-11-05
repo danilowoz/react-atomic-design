@@ -1,0 +1,30 @@
+{
+  "extends": [
+    "plugin:flowtype/recommended",
+    "cheesecakelabs"
+  ],
+  "plugins": [
+    "flowtype"
+  ],
+  "settings": {
+    "import/resolver": {
+      "webpack": {
+        "config": "webpack.config.dev.js"
+      }
+    }
+  },
+  "rules": {
+    "jsx-a11y/label-has-for": [
+      2,
+      {
+        "required": {
+          "every": [
+            "nesting",
+            "id"
+          ]
+        },
+        "allowChildren": true
+      }
+    ]
+  }
+}

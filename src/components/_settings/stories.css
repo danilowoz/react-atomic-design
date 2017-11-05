@@ -1,0 +1,110 @@
+@import './_variables.css';
+
+.--brand:before {
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 3px;
+  margin-right: 0.5em;
+  background-color: var(--brand);
+}
+
+.--grey-1:before {
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 3px;
+  margin-right: 0.5em;
+  background-color: var(--grey-1);
+}
+
+.--grey-2:before {
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 3px;
+  margin-right: 0.5em;
+  background-color: var(--grey-2);
+}
+
+.--grey-3:before {
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 3px;
+  margin-right: 0.5em;
+  background-color: var(--grey-3);
+}
+
+.--grey-4:before {
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 3px;
+  margin-right: 0.5em;
+  background-color: var(--grey-4);
+}
+
+.--color-type-body:before {
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 3px;
+  margin-right: 0.5em;
+  background-color: var(--grey-2);
+}
+
+.--success:before {
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 3px;
+  margin-right: 0.5em;
+  background-color: var(--success);
+}
+
+.--atenttion:before {
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 3px;
+  margin-right: 0.5em;
+  background-color: var(--atenttion);
+}
+
+.--wait:before {
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 3px;
+  margin-right: 0.5em;
+  background-color: var(--wait);
+}
+
+.--error:before {
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 3px;
+  margin-right: 0.5em;
+  background-color: var(--error);
+}
+
+.--base-font-family {
+  font-family: var(--base-font-family);
+}
+
+.--headers-font-family {
+  font-family: var(--headers-font-family);
+}
+
