@@ -21,7 +21,7 @@ Feel free to test, change e adapt everything.
 ## What is Atomic Design?
 
 
-Popularly known within the design world, Atomic Design helps to build consistent, solid and reusable design systems. Plus, in the world of React, Vue and frameworks that stimulate the componentization, Atomic Design is used unconsciously; but when used the right way, it becomes a powerful ally of developers.
+Popularly known within the design world, Atomic Design helps to build consistent, solid and reusable design systems. Plus, in the world of React, Vue and frameworks that stimulate the componentization, Atomic Design is used unconsciously; but when used in the right way, it becomes a powerful ally for developers.
 
 The name Atomic Design comes from the idea of separating the components in atoms, molecules, organisms, templates and pages, like in the image above. But what are the responsibilities of each separated part?
 
@@ -37,7 +37,7 @@ Atoms are the smallest possible components, such as buttons, titles, inputs or e
 
 <img width="654" alt="molecules" src="https://user-images.githubusercontent.com/4838076/33235103-b352cc2c-d218-11e7-84e1-17d1bc8e4517.png">
 
-They are the composition of one or more components of atoms. Here we begin to compose complex components and reuse some of those components. Molecules can have their own properties and create functionalities by using atoms, which alone have no function or action.
+They are the composition of one or more components of atoms. Here we begin to compose complex components and reuse some of those components. Molecules can have their own properties and create functionalities by using atoms, which don’t have any function or action by themselves.
 
 
 ### Organisms
@@ -56,6 +56,7 @@ In this state we stop composing components and begin to set their context. Moreo
 ### Pages
 
 <img width="585" alt="pages" src="https://user-images.githubusercontent.com/4838076/33663026-74d35e02-da75-11e7-8e1b-4cb9941dd61c.png">
+
 Pages are the navigate parts of the application and it’s where the components are distributed in one specific template. The components get real content and they’re connected with the whole application. At this stage, we can test the efficiency of the design system to analyse if all the components are independent enough or if we need to split them in smaller parts.
 
 ## React + Atomic Design
