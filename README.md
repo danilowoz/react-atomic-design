@@ -13,7 +13,7 @@ Feel free to test, change e adapt everything.
   - [Templates](https://github.com/danilowoz/react-atomic-design#templates)
   - [Pages](https://github.com/danilowoz/react-atomic-design#pages)
 - [React+Atomic Design](https://github.com/danilowoz/react-atomic-design#react--atomic-design)
-- [Scritps](https://github.com/danilowoz/react-atomic-design#scripts)
+- [Scripts](https://github.com/danilowoz/react-atomic-design#scripts)
 - [Libraries](https://github.com/danilowoz/react-atomic-design#libraries)
 - [Contributors](https://github.com/danilowoz/react-atomic-design#contributors)
 - [License](https://github.com/danilowoz/react-atomic-design#license)
@@ -101,7 +101,7 @@ So we were able to write a few rules:
   - Loader
   - Preset ES2015
 - Project
-  - Atomi Design styles folder structure
+  - Atomic Design styles folder structure
   - ESLint
   - Prettier
 
