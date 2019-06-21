@@ -48,7 +48,7 @@
         "copy-webpack-plugin": "^4.2.0",
         "css-loader": "^0.28.7",
         "empty": "^0.10.1",
-        "eslint": "^4.8.0",
+        "eslint": "^4.18.2",
         "eslint-config-cheesecakelabs": "^2.0.3",
         "eslint-plugin-flowtype": "^2.39.1",
         "extract-text-webpack-plugin": "^3.0.1",
