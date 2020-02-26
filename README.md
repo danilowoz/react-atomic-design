@@ -4,7 +4,7 @@
 This is a boilerplate with the methodology Atomic Design using a few cool things, like Storybook, Flow and CSS Modules. 
 Feel free to test, change e adapt everything. 
 
-[**Read full article**](https://medium.com/@danilowoznica/atomic-design-with-react-e7aea8152957)
+[**Read full article**](https://danilowoz.com/Atomic-Design-with-React/)
 
 - [What is Atomic Design?](https://github.com/danilowoz/react-atomic-design#what-is-atomic-design)
   - [Atomic](https://github.com/danilowoz/react-atomic-design#atoms)
