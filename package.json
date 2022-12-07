@@ -23,7 +23,7 @@
         "@storybook/addon-info": "^3.2.13",
         "babel-plugin-flow-react-proptypes": "^7.0.1",
         "classnames": "^2.2.5",
-        "express": "^4.16.0",
+        "express": "^4.17.3",
         "express-static-gzip": "^0.3.0",
         "react": "^16.0.0",
         "react-dom": "^16.0.1",
